@@ -743,11 +743,6 @@ function main(data) {
         timeout: data.timeout,
     };
 
-    //final logging before sending
-    //log('Sending HTTP POST to: '+data.api_url);
-    //log("options="+JSON.stringify(options));
-    //log("body="+JSON.stringify(postBody));
-
     // Sends POST request to TTD API
     sendHttpRequest(
         //url
